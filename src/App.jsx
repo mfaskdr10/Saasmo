@@ -1,0 +1,8 @@
+import React from "react";
+import { BrowserRouter } from "react-router";
+
+const App = () => {
+  return <></>;
+};
+
+export default App;

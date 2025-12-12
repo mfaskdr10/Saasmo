@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* Font */
+  --font-dmSans: "DM Sans", sans-serif;
+
+  /* Color */
+  --color-purple: #7952df;
+  --color-yellow-green: #d8fa50;
+  --color-ghost-white: #f9faff;
+  --color-aliceblue: #f1f2ff;
+  --color-deep-violet: #1e0a52;
+  --color-twilight-blue: #5f5f86;
+  --color-periwinkle: #cccce9;
+
+  /* Font Style Heading */
+  --text-display-xxl: 72px;
+  --text-display-xxl--font-weight: 500;
+  --text-display-xxl--line-height: 100%;
+
+  --text-display-xl: 50px;
+  --text-display-xl--font-weight: 500;
+  --text-display-xl--line-height: 100%;
+
+  --text-display-l: 40px;
+  --text-display-l--font-weight: 500;
+  --text-display-l--line-height: 100%;
+
+  --text-display-m: 32px;
+  --text-display-m--font-weight: 500;
+  --text-display-m--line-height: 100%;
+
+  --text-display-s: 24px;
+  --text-display-s--font-weight: 500;
+  --text-display-s--line-height: 100%;
+
+  --text-display-xs: 20px;
+  --text-display-xs--font-weight: 500;
+  --text-display-xs--line-height: 100%;
+
+  /* Font Style Title */
+  --text-title-l: 16px;
+  --text-title-l--font-weight: 500;
+  --text-title-l--line-height: 100%;
+
+  --text-title-m: 14px;
+  --text-title-m--font-weight: 500;
+  --text-title-m--line-height: 120%;
+
+  --text-title-s: 12px;
+  --text-title-s--font-weight: 500;
+  --text-title-s--line-height: 100%;
+
+  /* Font Style Body */
+  --text-body-l: 18px;
+  --text-body-l--font-weight: 400;
+  --text-body-l--line-height: 140%;
+
+  --text-body-m: 16px;
+  --text-body-m--font-weight: 400;
+  --text-body-m--line-height: 140%;
+
+  --text-body-s: 14px;
+  --text-body-s--font-weight: 400;
+  --text-body-s--line-height: 140%;
+
+  --text-body-xs: 12px;
+  --text-body-xs--font-weight: 400;
+  --text-body-xs--line-height: 140%;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-dmSans);
+  }
+}
+
+@layer components {
+  .gradient-1 {
+    @apply bg-linear-to-b from-[#1A084B] to-[#4A24A5];
+  }
+
+  .gradient-2 {
+    @apply bg-linear-to-b from-[#F3F4FF] to-[#FFFFFF] border border-periwinkle;
+  }
+}
