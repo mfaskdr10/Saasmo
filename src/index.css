@@ -1,10 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"); */
 @import "tailwindcss";
+
+@font-face {
+  font-family: "General Sans";
+  src: url("@/assets/fonts/GeneralSans-Regular.woff2") format("woff2"),
+    url("@/assets/fonts/GeneralSans-Regular.woff") format("woff"),
+    url("@/assets/fonts/GeneralSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("@/assets/fonts/GeneralSans-Medium.woff2") format("woff2"),
+    url("@/assets/fonts/GeneralSans-Medium.woff") format("woff"),
+    url("@/assets/fonts/GeneralSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
 
 @theme {
   /* Font */
-  --font-dmSans: "DM Sans", sans-serif;
+  --font-generalSans: "General Sans", sans-serif;
 
   /* Color */
   --color-purple: #7952df;
@@ -73,7 +92,7 @@
 
 @layer base {
   body {
-    font-family: var(--font-dmSans);
+    font-family: var(--font-generalSans);
   }
 }
 

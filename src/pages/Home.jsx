@@ -1,15 +1,14 @@
 import { Navbar } from "@/components/common/Navbar";
-import { DesktopLayout } from "@/components/layout";
-import { HeroSection } from "@/features/landing/HeroSection";
-import React from "react";
+import { HeroSection } from "@/features/landing/Hero";
 
 export const Home = () => {
   return (
-    <div className="gradient-2 w-full h-screen px-8 py-6">
+    <>
       <Navbar />
-      <DesktopLayout>
+      <div className="gradient-2 border-0">
         <HeroSection />
-      </DesktopLayout>
-    </div>
+      </div>
+      <p className="bg-amber-200 h-screen">HAlo Semuanya</p>
+    </>
   );
 };

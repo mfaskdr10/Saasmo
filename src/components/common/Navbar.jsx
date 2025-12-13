@@ -31,7 +31,7 @@ const navMenus = [
 
 export const Navbar = () => {
   return (
-    <nav className="px-6.5 py-4 flex justify-between items-center bg-white rounded-3xl">
+    <nav className="px-6.5 py-4 my-6 fixed right-8 left-8 z-100 flex justify-between items-center bg-white rounded-3xl shadow-xl">
       <Link to={"/"}>
         <img src={logoGambar} alt="logo-saasmo" />
       </Link>
