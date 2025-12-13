@@ -6,7 +6,7 @@ const HeroContent = () => {
   return (
     <div className="flex-1/2 my-auto z-10">
       {/* Badge / Tag */}
-      <div className="flex items-center gap-3 w-full p-1 mb-4">
+      <div className="flex items-center gap-3 w-full p-1 md:mb-4 mb-3">
         <div className="p-2.75 bg-white rounded-full">
           <Award className="text-deep-violet" />
         </div>
@@ -16,12 +16,12 @@ const HeroContent = () => {
       </div>
 
       {/* Heading */}
-      <h1 className="text-display-m md:text-display-xl text-deep-violet mb-8">
+      <h1 className="text-display-m md:text-display-xl text-deep-violet md:mb-8 mb-4">
         Recruiting software that helps you hire faster for free
       </h1>
 
       {/* Description */}
-      <p className="max-w-125 w-full text-body-s md:text-body-m mb-14 text-twilight-blue">
+      <p className="max-w-125 w-full text-body-s md:text-body-m md:mb-14 mb-6 text-twilight-blue">
         Attract great talent to your open roles to take your business to the
         next level. Build, promote and manage your jobs with our free to use
         recruitment software.

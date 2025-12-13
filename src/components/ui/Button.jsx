@@ -10,7 +10,7 @@ export const Button = ({
   ...props
 }) => {
   const baseStyles =
-    "inline-flex items-center justify-between gap-2.5 font-medium text-base rounded-3xl";
+    "inline-flex items-center justify-between gap-2.5 font-medium text-body-s xs:text-title-l md:text-base rounded-3xl";
   const variants = {
     primary: "gradient-1 text-white",
     secondary: "bg-aliceblue text-deep-violet border border-periwinkle",
