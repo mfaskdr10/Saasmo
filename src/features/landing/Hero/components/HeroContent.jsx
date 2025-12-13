@@ -16,12 +16,12 @@ const HeroContent = () => {
       </div>
 
       {/* Heading */}
-      <h1 className="text-display-xl text-deep-violet mb-8">
+      <h1 className="text-display-m md:text-display-xl text-deep-violet mb-8">
         Recruiting software that helps you hire faster for free
       </h1>
 
       {/* Description */}
-      <p className="max-w-125 w-full text-body-m mb-14 text-twilight-blue">
+      <p className="max-w-125 w-full text-body-s md:text-body-m mb-14 text-twilight-blue">
         Attract great talent to your open roles to take your business to the
         next level. Build, promote and manage your jobs with our free to use
         recruitment software.

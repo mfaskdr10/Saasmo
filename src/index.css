@@ -88,6 +88,21 @@
   --text-body-xs: 12px;
   --text-body-xs--font-weight: 400;
   --text-body-xs--line-height: 140%;
+
+  --animate-float: float 3s ease-out infinite;
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-20px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
 }
 
 @layer base {

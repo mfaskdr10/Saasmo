@@ -4,9 +4,10 @@ import { Link } from "react-router";
 export const Button = ({
   children,
   variant = "primary",
-  size = "lg",
+  size,
   className,
   to,
+  ...props
 }) => {
   const baseStyles =
     "inline-flex items-center justify-between gap-2.5 font-medium text-base rounded-3xl";
@@ -38,6 +39,7 @@ export const Button = ({
     <>
       <button
         className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`}
+        {...props}
       >
         {children}
       </button>
