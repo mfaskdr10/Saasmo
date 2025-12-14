@@ -21,19 +21,19 @@ const StatCard = ({ total, label, color }) => {
     >
       {/* Bagian Atas: Label dan Icon */}
       <div className="flex justify-between items-start">
-        <h3 className={`${textColorClass} text-title-s font-medium`}>
+        <h3 className={`${textColorClass} text-body-xs md:text-title-s font-medium`}>
           {label}
         </h3>
 
         {/* Lingkaran Putih dengan Icon */}
-        <div className="bg-white rounded-full p-2.75 shadow-sm flex items-center justify-center">
+        <div className="bg-white rounded-full p-1.5 md:p-2.75 shadow-sm flex items-center justify-center">
           <Download className="text-deep-violet" />
         </div>
       </div>
 
       {/* Bagian Bawah: Angka Besar */}
       <div className="">
-        <h2 className={`${textColorClass} text-display-s font-bold`}>
+        <h2 className={`${textColorClass} md:text-display-s text-display-xs font-bold`}>
           {total}
         </h2>
       </div>
@@ -46,7 +46,7 @@ const StatCard = ({ total, label, color }) => {
 
 export default function DownloadSwiper() {
   return (
-    <div className="w-full md:max-w-60 mx-auto border-8 border-white rounded-4xl bg-white static md:absolute top-110 left-60 shadow-2xl">
+    <div className="xs:w-[45%] md:w-80 mx-auto border-4 md:border-8 border-white rounded-4xl bg-white absolute top-190 right-10 md:top-110 md:left-50 md:right-0 shadow-2xl">
       <Swiper
         // Konfigurasi Module
         modules={[Pagination, Autoplay]}
@@ -71,7 +71,7 @@ export default function DownloadSwiper() {
             "#999999" /* Warna Titik MATI (Abu) */,
           "--swiper-pagination-bullet-inactive-opacity":
             "0.5" /* Transparansi Titik Mati */,
-          "--swiper-pagination-bullet-size": "10px" /* Ukuran Titik */,
+          "--swiper-pagination-bullet-size": "6px" /* Ukuran Titik */,
           "--swiper-pagination-bullet-horizontal-gap":
             "2px" /* Jarak antar titik */,
         }}
