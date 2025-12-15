@@ -2,7 +2,7 @@ import avatar2 from "@/assets/avatar2.svg";
 
 const ContributionCard = () => {
   return (
-    <div className="bg-white rounded-2xl p-3 md:p-6 flex gap-1.5 absolute right-5 top-125 md:top-15 md:right-0 shadow-xl animate-float">
+    <div className="bg-white rounded-2xl p-3 md:p-6 flex gap-1.5 absolute -right-5 -top-5 md:-top-19 md:right-5 shadow-xl md:">
       <div
         className="border-4 border-aliceblue rounded-full border-b-twilight-blue"
         dir="ttl"

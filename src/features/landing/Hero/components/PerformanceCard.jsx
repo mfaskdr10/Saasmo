@@ -5,7 +5,7 @@ import interviewsImg from "@/assets/interviews.svg";
 
 const PerformanceCard = () => {
   return (
-    <div className="w-[95%] xs:w-[80%] md:w-129.75 animate-float absolute mx-auto bg-white px-4 pt-6 pb-4 rounded-4xl md:top-30 top-132 left-[50%] -translate-x-[50%] shadow-2xl">
+    <div className="w-full md:w-129.75 bg-white px-4 pt-6 pb-4 rounded-4xl md:top-30 left-[50%] shadow-2xl">
       <p className="md:text-display-s text-title-s text-deep-violet px-4 mb-4">
         Performance
       </p>

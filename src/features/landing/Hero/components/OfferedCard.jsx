@@ -3,7 +3,7 @@ import avatar from "@/assets/avatar.svg";
 
 const OfferedCard = () => {
   return (
-    <div className="bg-white p-2.75 md:p-5 rounded-2xl md:rounded-4xl absolute md:-left-20 md:top-85 top-160 left-5 shadow-2xl text-deep-violet ">
+    <div className="bg-white p-2.75 md:p-5 rounded-2xl md:rounded-4xl absolute md:-left-30 md:top-45 top-30 -left-3 xs:-left-5 shadow-2xl text-deep-violet z-10">
       <div className="flex justify-between md:mb-5 mb-2.75 items-center">
         <p className="md:text-display-s text-title-s text-deep-violet">
           Offered

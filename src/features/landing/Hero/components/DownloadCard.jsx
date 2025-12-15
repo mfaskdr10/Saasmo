@@ -16,12 +16,14 @@ const StatCard = ({ total, label, color }) => {
   return (
     // Container Kartu (Warna Hijau Neon)
     <div
-      className={`relative p-6 rounded-3xl flex flex-col justify-between overflow-hidden shadow-sm`}
+      className={`relative p-4 md:p-6 rounded-3xl flex flex-col justify-between overflow-hidden shadow-sm`}
       style={{ backgroundColor: color }}
     >
       {/* Bagian Atas: Label dan Icon */}
       <div className="flex justify-between items-start">
-        <h3 className={`${textColorClass} text-body-xs md:text-title-s font-medium`}>
+        <h3
+          className={`${textColorClass} text-body-xs md:text-title-s font-medium`}
+        >
           {label}
         </h3>
 
@@ -33,7 +35,9 @@ const StatCard = ({ total, label, color }) => {
 
       {/* Bagian Bawah: Angka Besar */}
       <div className="">
-        <h2 className={`${textColorClass} md:text-display-s text-display-xs font-bold`}>
+        <h2
+          className={`${textColorClass} md:text-display-s text-display-xs font-bold`}
+        >
           {total}
         </h2>
       </div>
@@ -46,7 +50,7 @@ const StatCard = ({ total, label, color }) => {
 
 export default function DownloadSwiper() {
   return (
-    <div className="xs:w-[45%] md:w-80 mx-auto border-4 md:border-8 border-white rounded-4xl bg-white absolute top-190 right-10 md:top-110 md:left-50 md:right-0 shadow-2xl">
+    <div className="w-[60%] md:w-80 mx-auto border-4 md:border-8 border-white rounded-4xl bg-white absolute top-60 -right-5 md:top-75 md:left-40 md:right-0 shadow-xl">
       <Swiper
         // Konfigurasi Module
         modules={[Pagination, Autoplay]}

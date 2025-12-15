@@ -5,7 +5,7 @@ import PerformanceCard from "@/features/landing/Hero/components/PerformanceCard"
 
 export const HeroVisuals = () => {
   return (
-    <div className="flex flex-col gap-10 md:flex-1/3 flex-1 z-10 md:relative">
+    <div className="relative flex-1/3">
       <PerformanceCard />
       <OfferedCard />
       <DownloadCard />

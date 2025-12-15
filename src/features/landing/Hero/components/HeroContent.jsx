@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/Button";
 
 const HeroContent = () => {
   return (
-    <div className="flex-1/2 my-auto z-10">
+    <div className="z-10 flex-1/2">
       {/* Badge / Tag */}
       <div className="flex items-center gap-3 w-full p-1 md:mb-4 mb-3">
         <div className="p-2.75 bg-white rounded-full">
@@ -17,7 +17,7 @@ const HeroContent = () => {
 
       {/* Heading */}
       <h1 className="text-display-m md:text-display-xl text-deep-violet md:mb-8 mb-4">
-        Recruiting software that helps you hire faster for free
+        Recruiting software <br /> that helps you hire <br /> faster for free
       </h1>
 
       {/* Description */}
