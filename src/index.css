@@ -104,28 +104,20 @@
     }
   }
 
-  /* Iphone biasa & pro */
-  --breakpoint-xxs: 300px;
+  --breakpoint-xxs: 320px;
 
-  /* 1. XS: HP Kecil & Foldable (Galaxy Flip, iPhone SE/Mini) */
   --breakpoint-xs: 400px;
 
-  /* 2. SM: HP Flagship Landscape / Tablet Portrait Kecil (Default Tailwind) */
   --breakpoint-sm: 640px;
 
-  /* 3. MD: Tablet Portrait / iPad (Default Tailwind) */
   --breakpoint-md: 768px;
 
-  /* 4. LG: Tablet Landscape / Laptop Kecil 13" (Default Tailwind) */
   --breakpoint-lg: 1024px;
 
-  /* 5. XL: Laptop Standar / Desktop 1080p dengan scaling (Default Tailwind) */
   --breakpoint-xl: 1280px;
 
-  /* 6. 2XL: Monitor High-Res / Desktop Besar (Default Tailwind) */
   --breakpoint-2xl: 1536px;
 
-  /* 7. 3XL: Monitor 4K / Ultrawide / TV (CUSTOM BARU) */
   --breakpoint-3xl: 1920px;
 }
 

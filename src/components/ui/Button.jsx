@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 export const Button = ({
   children,
-  variant = "primary",
+  variant,
   size,
   className,
   to,

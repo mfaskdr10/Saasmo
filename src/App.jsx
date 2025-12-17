@@ -2,7 +2,9 @@ import React from "react";
 import { BrowserRouter } from "react-router";
 
 const App = () => {
-  return <></>;
+  return <>
+    
+  </>;
 };
 
 export default App;

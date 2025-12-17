@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/common/Navbar";
 import { HeroSection } from "@/features/landing/Hero";
+import HowWeWork from "@/features/landing/HowWeWork";
 import Trusted from "@/features/landing/Trsuted";
 
 export const Home = () => {
@@ -10,6 +11,7 @@ export const Home = () => {
         <HeroSection />
       </div>
       <Trusted />
+      <HowWeWork />
     </>
   );
 };

@@ -17,7 +17,8 @@ const HeroContent = () => {
 
       {/* Heading */}
       <h1 className="text-display-m md:text-display-xl text-deep-violet md:mb-8 mb-4">
-        Recruiting software <br /> that helps you hire <br /> faster for free
+        Recruiting software <br className="md:hidden xl:block" /> that helps you hire{" "}
+        <br className="md:hidden xl:block" /> faster for free
       </h1>
 
       {/* Description */}
